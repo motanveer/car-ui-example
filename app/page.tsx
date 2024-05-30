@@ -9,7 +9,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
-    <main className="relative flex min-h-screen">
+    <main className=" relative flex min-h-screen">
       <div className="w-2/4 hidden md:flex flex-col items-center p-24" style={{ backgroundImage: `url(${hero.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <Image className="max-w-20" width={300} height={200} src={logo} alt="Logo" />
       </div>
